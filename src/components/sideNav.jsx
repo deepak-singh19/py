@@ -17,7 +17,7 @@ const SideNav = () => {
 
   return (
     <>
-      {/* Desktop */}
+      {/* Desktop Version */}
       <div className="hidden md:flex h-full w-1/6 justify-around items-end">
         <div className="flex relative">
           <AiFillHeart
