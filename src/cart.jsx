@@ -124,7 +124,8 @@ const Cart = ({ data }) => {
           });
           setDiscount((prev) => {
             const p = parseFloat(coffee.price.replace(/[^\d.-]/g, ""));
-            prev = prev - p.toFixed(2);
+            const newDiscount = (prev - p).toFixed(2);
+            return parseFloat(newDiscount);
           });
         }
       });
