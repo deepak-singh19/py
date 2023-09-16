@@ -101,7 +101,7 @@ const MainContainer = ({ filteredData, setFilteredData, data, setData }) => {
                 <div className="flex flex-col mb-[10px] h-1/2 justify-around">
                   <div>
                     {e.available < 9 ? (
-                      <p className="px-3 py-1 rounded-full borde text-sm text-white bg-orange-600 w-[90px]">
+                      <p className="px-3 py-1 rounded-full borde text-sm text-white bg-orange-600 w-[130px]">
                         Only {e.available} left
                       </p>
                     ) : (
